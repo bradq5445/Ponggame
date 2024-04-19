@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Playermovement : MonoBehaviour
+public class Playermovmentfix : MonoBehaviour
 {
     Vector3 speedUp = Vector3.up;
     Vector3 speedDown = Vector3.down;
@@ -12,7 +12,7 @@ public class Playermovement : MonoBehaviour
         if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.position += speedUp * 0.1f;
-            
+
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
