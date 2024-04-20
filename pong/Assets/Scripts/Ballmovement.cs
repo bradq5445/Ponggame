@@ -12,7 +12,7 @@ public class Ballmovement : MonoBehaviour
         rigidbody = GetComponent<Rigidbody2D>();
         rigidbody.AddForce(transform.up * speed, ForceMode2D.Impulse);
     }
-
+    //on collision ball hits
     void OnCollisionEnter2D(Collision2D collision)
     {
         rigidbody.AddForce(transform.up * -speed, ForceMode2D.Impulse);

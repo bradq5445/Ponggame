@@ -9,6 +9,7 @@ public class Playermovmentfix : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+
         if (Input.GetKey(KeyCode.UpArrow))
         {
             transform.position += speedUp * 0.1f;
